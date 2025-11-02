@@ -14,7 +14,8 @@
    * Harmonic mean punishes extreme differences between precision and recall
 
 # Confusion Matrix - Compares the predicted values to the true values
-<img width="851" height="400" alt="image" src="https://github.com/user-attachments/assets/4176ae46-8a37-45d7-ab33-c6eeb49f5f27" />
+<img width="851" height="400" alt="image" src="https://github.com/user-attachments/assets/4176ae46-8a37-45d7-ab33-c6eeb49f5f27" />  
+
 ## Correct Predictions
 * *True positive* - the person having the disease and the model correctly predicting that they have the disease
 * *True negative* - the person not having the disease and the model correctly predicting that they do not have the disease
@@ -23,7 +24,8 @@
 * *False negative* (Type 2 Error) - the person does have the disease but the model inaccuraetly predicts that they do not have the disease.
 
 ## Calculations
-<img width="815" height="432" alt="image" src="https://github.com/user-attachments/assets/4d6b1f79-2a40-4da2-a2fa-dcd2e461e457" />
+<img width="815" height="432" alt="image" src="https://github.com/user-attachments/assets/4d6b1f79-2a40-4da2-a2fa-dcd2e461e457" />  
+
 
 
 
