@@ -1,6 +1,10 @@
 # Machine Learning/Deep Learning Model Notes
 
-## <u>Supervised Learning</u>
+## <u>Supervised Learning</u>  
+
+Machine learing process for supervised learining  
+<img width="951" height="302" alt="image" src="https://github.com/user-attachments/assets/04cd0896-5b56-42eb-9fec-0f3f77bc13eb" />
+
 ### Classification Error Performance Evaluation
 * Model tires to predict categorical values (i.e. dog/cat, spam/not-spam)
 * **Accuracy** in classification porblems is the **number of correct predictions** made by the model divided by the **total number of predictions**. How many prediction did you get right as a percentage?
@@ -42,7 +46,10 @@
 * **Root Mean Squared Error** - Takes the square-root to fix the issue with Mean Squared Error
   * Compare the Root Mean Squared Error to the mean values to get an idea of significance
 
-## <u>Unsupervised Learning</u>
+## <u>Unsupervised Learning</u>  
+Machine learning process for unsupervised learning
+<img width="926" height="134" alt="image" src="https://github.com/user-attachments/assets/3919cd9e-2131-4259-b56c-3dc2ab515521" />
+
 * There is no Test/Train split
   * So, train ad fit the model on all the data and afterwards, perform some sort of transformation on the data set such as Dimentionality Reduction
 * No historical labels
@@ -52,6 +59,7 @@
 * **Anomaly Detectection** - Attempts to detect outliers in a dataset (i.e. fraudulent transactions on a credit card)
 * **Dimentionality Reduction** - Reduce the number of features in a dataset
 
+# Artificail Neural Networks
 
 
 
