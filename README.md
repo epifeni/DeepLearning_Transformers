@@ -1,4 +1,4 @@
-# Proobability Distributions
+# Probability Distributions
 * Continuous Probability Distributions - Probability Density Functions
  * **Normal Distirbution** - Most relevant to business decissions
  * *If a population approximate a standard normal distribution, then we can make some powerful inferences about it once we know its Mean and Standard Deviation - Using a Z-table*
