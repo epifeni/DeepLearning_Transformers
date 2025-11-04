@@ -50,6 +50,7 @@
 
 ## Central Limit Theorem
 * 95% of all sample means shold fall within 2 Standard Deviations of the population mean even if the population itself is not normally distributed
+<img width="927" height="420" alt="image" src="https://github.com/user-attachments/assets/d22afed3-27c1-44a7-8e13-6ddf5f15b562" />
 
 # Machine Learning/Deep Learning Model Notes  
 
