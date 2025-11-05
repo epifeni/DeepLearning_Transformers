@@ -56,7 +56,7 @@
 
 ## Central Limit Theorem
 * 95% of all sample means shold fall within 2 Standard Deviations of the population mean even if the population itself is not normally distributed
-<img width="927" height="420" alt="image" src="https://github.com/user-attachments/assets/d22afed3-27c1-44a7-8e13-6ddf5f15b562" />\
+<img width="927" height="420" alt="image" src="https://github.com/user-attachments/assets/d22afed3-27c1-44a7-8e13-6ddf5f15b562" />
 
 # Standard Error  
 Describes how far a **sample mean** stray from the **population mean**  
@@ -71,7 +71,7 @@ Takes both the sample and population into consideration
 We can say that with a 95% **confidence level** that the **populaiton parameter** lies within a **confidence interval** of plus-or-minus 2 **Standard Errors** of the **sample statistic**
 * Standard Error describes how a sample statistic varies from the population parameter. It **does not** describe how individual values deviate within the statistic (this would just be the standard deviation of the sample)
 * We can say that the sample statistic (p-hat) is a **point estimator** of the population parameter P
-<img width="757" height="429" alt="image" src="https://github.com/user-attachments/assets/8787fa23-0b98-4612-8e21-ef8958225be2" />\
+<img width="757" height="429" alt="image" src="https://github.com/user-attachments/assets/8787fa23-0b98-4612-8e21-ef8958225be2" />
 
 # Hypothesis Testing  
 **We never "PROVE" a hypothesis. We only can **reject** OR **fail to reject** the null hypothesis  
@@ -90,13 +90,13 @@ The application of statistical methods to real-world questions
 * Assuming out null hypothesis is valid, if the probability of observing these results of the null hypothiesis (after recording the results) is very small (inside of 0.05 - **The Level of Significance [alpha]**), then we reject the null hypothesis\
   * i.e. Given an assumption, the probability of a particular observed event is exceptionally small, then you can conclude that the assumption is probaby not correct\
 * If alpha = 0.05 and the alternative hypothesis has an alpha that is **less than* the null hypothesis, then the **left-tail** of the probability curve has an area of 0.05\
-<img width="343" height="221" alt="image" src="https://github.com/user-attachments/assets/b0cb61a3-b6cd-4d2f-bab7-b52c539e1a2f" />\
+<img width="343" height="221" alt="image" src="https://github.com/user-attachments/assets/b0cb61a3-b6cd-4d2f-bab7-b52c539e1a2f" />
 * If alpha = 0.05 and the alternative hypothesis has an alpha that is **more than* the null hypothesis, then the **right-tail** of the probability curve has an area of 0.05\
-<img width="290" height="228" alt="image" src="https://github.com/user-attachments/assets/d0c84b0f-8a6f-43d6-89af-7bed40201a8a" />\
+<img width="290" height="228" alt="image" src="https://github.com/user-attachments/assets/d0c84b0f-8a6f-43d6-89af-7bed40201a8a" />
 * If alpha = 0.05 and the alternative hypothesis has an alpha that is **not equal to* the null hypothesis, then the two tales of the probability curve **share** an area of 0.05 (H1 not= null)\  
-<img width="539" height="60" alt="image" src="https://github.com/user-attachments/assets/00e6180e-2831-410a-8718-2526905cdb7a" />\  
+<img width="539" height="60" alt="image" src="https://github.com/user-attachments/assets/00e6180e-2831-410a-8718-2526905cdb7a" /> 
 * These areas establish the **critical values** or Z-scores\  
-<img width="575" height="235" alt="image" src="https://github.com/user-attachments/assets/d8976ee0-c177-4563-b597-41a0d9967ecf" />\  
+<img width="575" height="235" alt="image" src="https://github.com/user-attachments/assets/d8976ee0-c177-4563-b597-41a0d9967ecf" />  
 
 ## 2 Types of Tests - Test of Means and Test of Propotions
 * Each has it's own test statistic to calculate
@@ -105,9 +105,9 @@ The application of statistical methods to real-world questions
 
 ### Calculating Test Statistics
 * When working with mean\
-<img width="624" height="134" alt="image" src="https://github.com/user-attachments/assets/151ab9c9-7959-4ba9-b8d8-54852c87a1f9" />\
+<img width="624" height="134" alt="image" src="https://github.com/user-attachments/assets/151ab9c9-7959-4ba9-b8d8-54852c87a1f9" />
 * When working with populations\
-<img width="509" height="161" alt="image" src="https://github.com/user-attachments/assets/5eb77b53-157f-4094-b084-0ae4cab403fb" />\
+<img width="509" height="161" alt="image" src="https://github.com/user-attachments/assets/5eb77b53-157f-4094-b084-0ae4cab403fb" />
 
 ## 2 Ways of Performing Hypothesis Tests  
 **Traditional Test**
