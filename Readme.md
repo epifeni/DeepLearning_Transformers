@@ -276,7 +276,55 @@ Now y = (x1w1 + b) + (x2w2 + b)<br>
 6. This equation can be simplified by adding up all the biases into one bias labeled B<br>
 <img width="907" height="307" alt="image" src="https://github.com/user-attachments/assets/6356480c-6ab5-429f-a97e-3f95cb8fdb3e" /><br>
 
- 
+ ## Neural Network - Multi-layer Perceptron(Neuron) Model
+ **Neural Network has been mathematically proven to be able to approximate any convex continuous function**
+ To build a network of perceptorns, connect layers of perceptrons <br/>
+
+ <img width="489" height="270" alt="image" src="https://github.com/user-attachments/assets/1d129c90-c3bb-4326-a8f5-827deaf53203" /> <br/>
+* 1st layer - input layer
+* last layer - output layer
+* all layers inbetween are hidden layers
+* **deep neural network** has 2 or more hidden layers<br/>
+
+<img width="776" height="244" alt="image" src="https://github.com/user-attachments/assets/637a373e-89c6-455f-addf-5eb654ecb003" /><br/>
+
+## Activation Functions
+For input x - there is a weight and a bias (x*w + b)<br/>
+**z = x*w + b**<br/>
+
+* w - the weight/strength that should be given to the incoming input (how important is the input?) - if the weight is large, the value of that input is likely very important
+* b - off-set value (threshold value for the imput and the weight to have any effect). So if b = -10, then the effect of x*w will not start to overcome the bias until their product surpasses 10
+* z can then be passed through some **Activation Function** to limit its value
+
+### Types of Activation Functions
+Continuous Regression
+* Rectified Linear Unit (ReLU) - output less than 0 is treated as 0. If greater than 0, output the z value. Good use case for vanishing gradient (This is usually the default activation function due to its good performance)
+  
+Binary Classification
+* Step function - outputs 0 or 1 
+* Sigmoid Function (Logistic Regression) - outputs from 0 to 1
+* Hyperbolic Tangent: tanh(z) - outputs -1 to 1
+
+
+Multi-class Classification
+* Non-Exclusive Classes - A data pointcan have multiple classes.categories assigned to it
+    * A phot can have multiple tags - have 1 output node per class
+    * Activation functions:
+       * Sigmoid function for each classification
+       * Softmax function for only assigning 1 classification
+* Mutually Exclusive Classes - Only one class per dat apoint
+    * Photo can be greayscale or full-colour <br/>
+
+<img width="748" height="333" alt="image" src="https://github.com/user-attachments/assets/935236e9-228f-4492-ac6b-39025b875e0f" /><br/>
+
+# Cost Functions and Gradient Descent (Gradient Descent = loss/error functions)
+Last output layer $\hat{y}$ <br/>
+
+
+
+
+
+
 
 
 
