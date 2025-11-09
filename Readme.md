@@ -290,7 +290,8 @@ Now y = (x1w1 + b) + (x2w2 + b)<br>
 
 ## Activation Functions
 For input x - there is a weight and a bias (x*w + b)<br/>
-**z = x*w + b**<br/>
+z = x*w + b at the first layer where x is the raw features <br/>
+from the 2nd layer onwards: z = a*w + b where a is the input from the previous neuron
 
 * w - the weight/strength that should be given to the incoming input (how important is the input?) - if the weight is large, the value of that input is likely very important
 * b - off-set value (threshold value for the imput and the weight to have any effect). So if b = -10, then the effect of x*w will not start to overcome the bias until their product surpasses 10
@@ -325,6 +326,32 @@ Last output layer $\hat{y}$ <br/>
     * y - represents the true value
     * a - represents the neuron's prediction
 * w*x +b = z --> z passes into activation function $\theta$(z) = a
+* Use gradient desent to solve for the minimum values of each w (using a stochastic process)
+    * Step size to minimise w is the **learning rate**
+ 
+* adaptive gradient descent - step size gets smaller as the gradient gets closer to 0
+*    * Popular optimiser is 'Adam'
+ 
+When dealing with N-dimentional vectors (tensors), the notation changes from **derivative** to **gradient** So we calcualte the gradient of the cost functions with respect to all the weights<br/>
+
+For classificaton problems, we generally use the **cross entropy** loss function - This assumes that the model predicts a probability distribution p(y=i) for each class i=1,2,...,C<br/> 
+
+**For perfroming classification, especially multi-class classification that's greater than binary classification (greater than 2), we will us coross entorpy to be our cost function**<br/> 
+
+## Backpropagation
+Moving backwords through a network to update the weights and the biases
+
+**Way of finding out how the cost function results change with respect to the weights in the network so we can update teh weights and to minimise the cost function**
+
+**We want to understand how sensitive the cost function is to changes in w**
+
+The learning process for a network
+1. Using input x, set the activation function a for the input layer
+* z = wx+b
+* a=$\theta$(z)
+2. This resulting a then feeds into the next layer (and so on)
+
+
 
 
 
